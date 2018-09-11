@@ -10,6 +10,9 @@
     <button  class="search_i_dodaj" @click="open=true" v-model='naslov'>Novi blog</button></br>
     <input class="trazi" type="text" v-model="ono_kaj_se_trazi" placeholder="Search"/>
 
+
+
+
 </div></br></br>
 
 <div v-on:keyup.escape="hideModal" >
